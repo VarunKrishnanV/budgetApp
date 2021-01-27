@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Budget Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+</head>
+<body>
+    <section class="main">
+        <div class="main_header">
+            <h3>Available Buget in January 2021</h3>
+        </div>
+        <div class="main_avail_amount">
+            <h1 class="main_avail_amount_amt">
+                +2222
+            </h1>
+        </div>
+        <div class="main_income">
+            <div class="income_text">Income</div>
+            <div class="income_amount">+1,200</div>
+            <div class="income_percent">&nbsp;</div>
+        </div>
+        <div class="main_expense">
+            <div class="expense_text">Expense</div>
+            <div class="expense_amount">-1,300</div>
+            <div class="expense_percent">45%</div>
+        </div>
+    </section>
+
+
+    <section class="form">
+        <div class="form_type">
+            <select name="" id="" class="type_select">
+                <option value="income" selected>+</option>
+                <option value="expense">-</option>
+            </select>
+        </div>
+        <div class="form_description">
+            <input type="text" name="" id="" class="form_description_value" placeholder="Description">
+        </div>
+        <div class="form_amount">
+            <input type="number" name="" id="" class="form_amount_value" placeholder="Amount">
+
+        </div>
+        <button class="income_color">
+            <i class="fas fa-check"></i>
+        </button>
+    </section>
+
+
+    <section class="result">
+
+            <div class="result_income">
+                <div class="result_income_header">
+                    INCOME
+                </div>
+                <div class="result_income_items">
+                    <div class="income_item">
+                        <div class="item_description">HNI Project</div>
+                        <div class="item_amount">+300</div>
+                        <div class="item_delete">
+                            <button class="delete_btn">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="income_item ">
+                        <div class="item_description">HNI Project</div>
+                        <div class="item_amount">+300</div>
+                        <div class="item_delete">
+                            <button class="delete_btn">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="result_expense">
+                    <div class="result_expense_header">
+                        EXPENSE
+                    </div>
+                    <div class="result_expense_items">
+                        <div class="expense_item">
+                            <div class="item_description">Hosting Purchase</div>
+                            <div class="item_amount">-444</div>
+                            <div class="item_percentage">45%</div>
+                            <div class="item_delete">
+                                <button class="delete_btn">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="expense_item">
+                            <div class="item_description">Hosting Purchase</div>
+                            <div class="item_amount">-444</div>
+                            <div class="item_percentage">45%</div>
+                            <div class="item_delete">
+                                <button class="delete_btn">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+    </section>
+</body>
+</html>
